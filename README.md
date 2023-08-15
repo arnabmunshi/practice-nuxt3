@@ -81,3 +81,9 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ```bash
 npm i bootstrap@5.3.1
 ```
+
+### Add CSS alias: `nuxt.config.ts`
+
+```ts
+css: ["bootstrap/dist/css/bootstrap.css"],
+```
