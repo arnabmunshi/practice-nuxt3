@@ -61,3 +61,17 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+### Add directory aliases: `nuxt.config.ts`
+
+```ts
++ import { resolve } from "path";
+
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  devtools: { enabled: true },
++ alias: {
++   "@": resolve(__dirname, "/"),
++ },
+});
+```
