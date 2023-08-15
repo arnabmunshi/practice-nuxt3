@@ -62,7 +62,7 @@ yarn preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-### Add directory aliases: `nuxt.config.ts`
+### Add directory alias: `nuxt.config.ts`
 
 ```diff
 ++  import { resolve } from "path";
@@ -74,4 +74,10 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ++      "@": resolve(__dirname, "/"),
 ++    },
     });
+```
+
+### Install Bootstrap CSS
+
+```bash
+npm i bootstrap@5.3.1
 ```
