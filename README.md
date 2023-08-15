@@ -64,14 +64,14 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ### Add directory aliases: `nuxt.config.ts`
 
-```ts
-++ import { resolve } from "path";
+```diff
+++  import { resolve } from "path";
 
-// https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
-  devtools: { enabled: true },
-++  alias: {
-++    "@": resolve(__dirname, "/"),
-++  },
-});
+    // https://nuxt.com/docs/api/configuration/nuxt-config
+    export default defineNuxtConfig({
+      devtools: { enabled: true },
+++    alias: {
+++      "@": resolve(__dirname, "/"),
+++    },
+    });
 ```
