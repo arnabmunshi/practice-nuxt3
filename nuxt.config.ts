@@ -6,5 +6,5 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  css: ["bootstrap/dist/css/bootstrap.css"],
+  css: ["bootstrap/dist/css/bootstrap.css", "~/assets/css/style.css"],
 });
